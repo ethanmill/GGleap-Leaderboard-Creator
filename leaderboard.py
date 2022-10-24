@@ -91,7 +91,7 @@ print("Make sure Amazon Photos desktop app is open!")
 
 while 1:
     #Auth
-    key="VjpQl7rNkj+kJubZ1s9VyOJ7TMSz/8RBv2WIfSp94GSTBPQ6un6Cv7CH9TuIyLwWxTnkD6fu/6dYGE2m9RAC1eZLpSLrfJZ3njxE1bIaK32sHA5eYIHpQo6FPt3ydWKM"
+    key="yourkeyhere"
 
     url = "https://api.ggleap.com/beta/authorization/public-api/auth"
     payload = "{\n  \"AuthToken\": \""+key+"\"\n}"
