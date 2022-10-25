@@ -32,7 +32,7 @@ Open up the leaderboard.py file from the downloaded files into a text editor: no
 
     key="yourkeyhere"
 
-replace "yourkeyhere" with the GGleap API token you copied and save.
+replace `yourkeyhere` with the GGleap API token you copied and save.
 
 ## Step 4: Running the script
 
