@@ -98,18 +98,7 @@ while 1:
     headers = {"Content-Type": "application/json-patch+json"}
     response = requests.request("POST", "https://api.ggleap.com/beta/authorization/public-api/auth", data=payload, headers=headers)
     JWT=response.text[8:len(response.text)-2]
-
-    smash=[["Chronos", ""],
-           ["KRU / Smirk", ""],
-           ["CSU / Robber", ""],
-           ["AciD", ""],
-           ["Feller", ""],
-           ["KRU / Shoe", ""],
-           ["FoCo  Solax", ""],
-           ["Super", ""],
-           ["KRU / CarbonCopies", ""],
-           ["ICYoyo", ""]]
-           
+    
     period="Month" #Time period for the leaderboards can be: Month, Week, Day
     fortnite=getLeaderboard("fortnite",period,"Center") #Get leaderboard for fortnite
     apex=getLeaderboard("apex",period,"Center") #Get leaderboard for apex
