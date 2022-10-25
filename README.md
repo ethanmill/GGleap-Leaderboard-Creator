@@ -117,7 +117,3 @@ Normally this data is extracted from GGleap with the `getLeaderboard()` function
 `data` is the custom data  array you created.
 
 The `0` value is useful is you quickly want to shift all text horizontally. A negative value will shift it left, a positive value will shift it right.
-
-
-
-<br><br><br><br><br><br><br><br><br>test
