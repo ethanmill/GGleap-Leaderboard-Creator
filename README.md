@@ -104,6 +104,9 @@ https://pillow.readthedocs.io/en/stable/reference/ImageFont.html
      ["Player9", "score9"],
      ["Player10","score10"]]
 
+Creates this:
+
+![API page](tutorial/test.png)
 
 Normally this data is extracted from GGleap with the `getLeaderboard()` function but if you want to manually create a scorecard just create a new array `data` with the players and score you want for the scoreboard and create the board image with `boardexport(path,export,data,0)`
 
