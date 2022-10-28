@@ -1,6 +1,8 @@
 # GGleap leaderboard python script
 
-This script uses the GGleap api to pull leaderboard scores and create custom scoreboards for the top 10 players. You'll want a computer at your center running this 24/7 for constant updates. For a video tutorial look here: https://youtu.be/HW_t9iy3i0Q
+This script uses the GGleap api to pull leaderboard scores and create custom scoreboards for the top 10 players. You'll want a computer at your center running this 24/7 for constant updates.
+
+For a video tutorial look here: https://youtu.be/HW_t9iy3i0Q
 
 ## Step 1: Install Python and required libraries
 
